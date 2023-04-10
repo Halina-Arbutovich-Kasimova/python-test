@@ -3,7 +3,7 @@ b = int(input("Ввести число "))
 c = int(input("Ввести число "))
 resualt = a>0 and b>0 and c>0 and "Нет нулевых значений !!!"
 print(resualt)
-resualt2 = a>0 or b>0 or c>0 or "Введены все 0!"   #Z2
+resualt2 = a or True and b  or True and c or True and "Введены все 0!"   #Z2
 print(resualt2)
 
 if a>b+c:            #Z3
